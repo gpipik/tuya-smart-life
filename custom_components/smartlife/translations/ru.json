@@ -1,0 +1,215 @@
+{
+    "config": {
+        "error": {
+            "invalid_auth": "Ошибка аутентификации",
+            "login_error": "Ошибка входа ({code}): {msg}"
+        },
+        "step": {
+            "user": {
+              "description": "Введите код пользователя/User Code из \n приложения Smart Life > Me > Settings(настройки) > Account and Security(аккаунт и безопасность)",
+              "data": {
+                "user_code": "Код пользователя/User Code"
+              }
+            },
+            "scan": {
+              "description": "Используйте приложение Smart Life для сканирования и входа в учетную запись \n\n {qr_code} \n\n"
+            }
+        }
+    },
+    "entity": {
+        "select": {
+            "basic_anti_flicker": {
+                "state": {
+                    "0": "Выключено",
+                    "1": "50 Hz",
+                    "2": "60 Hz"
+                }
+            },
+            "basic_nightvision": {
+                "state": {
+                    "0": "Авто",
+                    "1": "Выкл.",
+                    "2": "Вкл."
+                }
+            },
+            "countdown": {
+                "state": {
+                    "1h": "1 час",
+                    "2h": "2 часа",
+                    "3h": "3 часа",
+                    "4h": "4 часа",
+                    "5h": "5 часов",
+                    "6h": "6 часов",
+                    "cancel": "Отмена"
+                }
+            },
+            "curtain_mode": {
+                "state": {
+                    "morning": "Утро",
+                    "night": "Ночь"
+                }
+            },
+            "curtain_motor_mode": {
+                "state": {
+                    "back": "Назад",
+                    "forward": "Вперед"
+                }
+            },
+            "decibel_sensitivity": {
+                "state": {
+                    "0": "Низкая чувствительность",
+                    "1": "Высокая чувствительность"
+                }
+            },
+            "fan_angle": {
+                "state": {
+                    "30": "30\u00b0",
+                    "60": "60\u00b0",
+                    "90": "90\u00b0"
+                }
+            },
+            "fingerbot_mode": {
+                "state": {
+                    "click": "Нажать",
+                    "switch": "Переключить"
+                }
+            },
+            "humidifier_level": {
+                "state": {
+                    "level_1": "Уровень 1",
+                    "level_10": "Уровень 10",
+                    "level_2": "Уровень 2",
+                    "level_3": "Уровень 3",
+                    "level_4": "Уровень 4",
+                    "level_5": "Уровень 5",
+                    "level_6": "Уровень 6",
+                    "level_7": "Уровень 7",
+                    "level_8": "Уровень 8",
+                    "level_9": "Уровень 9"
+                }
+            },
+            "humidifier_moodlighting": {
+                "state": {
+                    "1": "Mood 1",
+                    "2": "Mood 2",
+                    "3": "Mood 3",
+                    "4": "Mood 4",
+                    "5": "Mood 5"
+                }
+            },
+            "humidifier_spray_mode": {
+                "state": {
+                    "auto": "Авто",
+                    "health": "Ресурс",
+                    "humidity": "Humidity",
+                    "sleep": "Сон",
+                    "work": "Работа"
+                }
+            },
+            "ipc_work_mode": {
+                "state": {
+                    "0": "Режим низкой мощности",
+                    "1": "Режим рабочего дня"
+                }
+            },
+            "led_type": {
+                "state": {
+                    "halogen": "Галоген",
+                    "incandescent": "Incandescent",
+                    "led": "Свотедиод"
+                }
+            },
+            "light_mode": {
+                "state": {
+                    "none": "Выкл.",
+                    "pos": "Отображение местоположения выключателя",
+                    "relay": "Отображение состояния выключателя"
+                }
+            },
+            "motion_sensitivity": {
+                "state": {
+                    "0": "Низкая чувствительность",
+                    "1": "Средняя чувствительность",
+                    "2": "Высокая чувствительность"
+                }
+            },
+            "record_mode": {
+                "state": {
+                    "1": "Только запись событий",
+                    "2": "Продолжительная запись"
+                }
+            },
+            "relay_status": {
+                "state": {
+                    "last": "Возврат прошлого состояния",
+                    "memory": "Вернуть прошлое состояние",
+                    "off": "Выкл.",
+                    "on": "Вкл.",
+                    "power_off": "Выкл.",
+                    "power_on": "Вкл."
+                }
+            },
+            "vacuum_cistern": {
+                "state": {
+                    "closed": "Закрыто",
+                    "high": "Высокий",
+                    "low": "Низкий",
+                    "middle": "Средний"
+                }
+            },
+            "vacuum_collection": {
+                "state": {
+                    "large": "Большой",
+                    "middle": "Средний",
+                    "small": "Маленький"
+                }
+            },
+            "vacuum_mode": {
+                "state": {
+                    "bow": "Bow",
+                    "chargego": "Return to dock",
+                    "left_bow": "Bow Left",
+                    "left_spiral": "Spiral Left",
+                    "mop": "Mop",
+                    "part": "Часть",
+                    "partial_bow": "Bow Partially",
+                    "pick_zone": "Pick Zone",
+                    "point": "Точка",
+                    "pose": "Pose",
+                    "random": "Случайно",
+                    "right_bow": "Bow Right",
+                    "right_spiral": "Спираль правая",
+                    "single": "Одиночный",
+                    "smart": "Умный",
+                    "spiral": "Спираль",
+                    "standby": "Режим сна",
+                    "wall_follow": "Follow Wall",
+                    "zone": "Зона"
+                }
+            }
+        },
+        "sensor": {
+            "air_quality": {
+                "state": {
+                    "good": "Хороший",
+                    "great": "НОРМАЛЬНЫЙ",
+                    "mild": "Мягкий",
+                    "severe": "Severe"
+                }
+            },
+            "status": {
+                "state": {
+                    "boiling_temp": "Boiling температура",
+                    "cooling": "Холодный",
+                    "heating": "Теплый",
+                    "heating_temp": "Температура нагрева",
+                    "reserve_1": "Резерв 1",
+                    "reserve_2": "Резерв 2",
+                    "reserve_3": "Резерв 3",
+                    "standby": "Режим сна",
+                    "warm": "Heat preservation"
+                }
+            }
+        }
+    }
+}
